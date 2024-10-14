@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(15, 9, 9)
+  ;
+}
+
+.search-bar {
+  width: 30%;
+  border: 2px solid rgb(204, 53, 171);
+  padding: 0.4em;
+  border-radius: 4px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border: 3px solid rgb(161, 226, 100);
+  width: 100%;
+  transition: all 0.3s;
+}
+
+.search-bar:focus::placeholder {
+  color: transparent;
+}
+
+.container {
+  width: 80%;
+  padding: 2rem;
+}
